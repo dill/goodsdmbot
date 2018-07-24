@@ -1,0 +1,391 @@
+Virginia opossum
+Nine-banded armadillo
+Beautiful armadillo
+American glyptodont
+American giant armadillo
+Jefferson ground sloth
+American giant ground sloth
+Harlan's ground sloth
+Shasta ground sloth
+Mountain beaver
+North American beaver
+Giant beaver
+Woodland jumping mouse
+Meadow jumping mouse
+Preble's meadow jumping mouse
+Western jumping mouse
+Pacific jumping mouse
+North American porcupine
+North American capybara
+Holmes's capybara
+Yellow-faced pocket gopher
+Desert pocket gopher
+Attwater's pocket gopher
+Baird's pocket gopher
+Plains pocket gopher
+Knox Jones's pocket gopher
+Texas pocket gopher
+Southeastern pocket gopher
+Llano pocket gopher
+Botta's pocket gopher
+Camas pocket gopher
+Wyoming pocket gopher
+Idaho pocket gopher
+Mazama pocket gopher
+Mountain pocket gopher
+Northern pocket gopher
+Townsend's pocket gopher
+Southern pocket gopher
+Mexican spiny pocket mouse
+Ord's kangaroo rat
+Gulf Coast kangaroo rat
+Chisel-toothed kangaroo rat
+Panamint kangaroo rat
+Stephens's kangaroo rat
+Narrow-faced kangaroo rat
+Big-eared kangaroo rat
+Agile kangaroo rat
+Heermann's kangaroo rat
+Morro Bay kangaroo rat
+California kangaroo rat
+Giant kangaroo rat
+Banner-tailed kangaroo rat
+Texas kangaroo rat
+Merriam's kangaroo rat
+Fresno kangaroo rat
+Desert kangaroo rat
+Dulzura kangaroo rat
+Dark kangaroo mouse
+Pale kangaroo mouse
+White-eared pocket mouse
+Arizona pocket mouse
+Olive-backed pocket mouse
+Plains pocket mouse
+Silky pocket mouse
+San Joaquin pocket mouse
+Little pocket mouse
+Merriam's pocket mouse
+Great Basin pocket mouse
+Bailey's pocket mouse
+California pocket mouse
+Chihuahuan pocket mouse
+San Diego pocket mouse
+Long-tailed pocket mouse
+Hispid pocket mouse
+Rock pocket mouse
+Nelson's pocket mouse
+Desert pocket mouse
+Spiny pocket mouse
+Baja pocket mouse
+Eastern gray squirrel
+Eastern fox squirrel
+Mexican fox squirrel
+Arizona gray squirrel
+Western gray squirrel
+Mexican gray squirrel
+American red squirrel
+Mount Graham red squirrel
+Douglas squirrel
+Abert's squirrel
+Northern flying squirrel
+Southern flying squirrel
+Humboldt's flying squirrel
+Harris's antelope squirrel
+San Joaquin antelope squirrel
+White-tailed antelope squirrel
+Texas antelope squirrel
+Gunnison's prairie dog
+White-tailed prairie dog
+Black-tailed prairie dog
+Utah prairie dog
+Alaska marmot
+Hoary marmot
+Yellow-bellied marmot
+Woodchuck
+Olympic marmot
+Vancouver Island marmot
+California ground squirrel
+Rock squirrel
+Golden-mantled ground squirrel
+Cascade golden-mantled ground squirrel
+Mohave ground squirrel
+Spotted ground squirrel
+Round-tailed ground squirrel
+Franklin's ground squirrel
+Mexican ground squirrel
+Thirteen-lined ground squirrel
+Uinta ground squirrel
+Belding's ground squirrel
+Northern Idaho ground squirrel
+Southern Idaho ground squirrel
+Merriam's ground squirrel
+Columbian ground squirrel
+Wyoming ground squirrel
+Piute ground squirrel
+Arctic ground squirrel
+Richardson's ground squirrel
+Townsend's ground squirrel
+Washington ground squirrel
+Alpine chipmunk
+Yellow pine chipmunk
+Gray-footed chipmunk
+Gray-collared chipmunk
+Cliff chipmunk
+Merriam's chipmunk
+Least chipmunk
+California chipmunk
+Yellow-cheeked chipmunk
+Palmer's chipmunk
+Panamint chipmunk
+Long-eared chipmunk
+Colorado chipmunk
+Red-tailed chipmunk
+Hopi chipmunk
+Allen's chipmunk
+Siskiyou chipmunk
+Sonoma chipmunk
+Lodgepole chipmunk
+Eastern chipmunk
+Townsend's chipmunk
+Uinta chipmunk
+Insular vole
+Beach vole
+California vole
+Gray-tailed vole
+Rock vole
+Long-tailed vole
+Mexican vole
+Mogollon vole
+Singing vole
+Montane vole
+Prairie vole
+Tundra vole
+Creeping vole
+Meadow vole
+Woodland vole
+Water vole
+Townsend's vole
+Taiga vole
+Sagebrush vole
+Muskrat
+White-footed vole
+Red tree vole
+California red tree mouse
+Western heather vole
+Eastern heather vole
+Western red-backed vole
+Southern red-backed vole
+Northern red-backed vole
+Northern bog lemming
+Southern bog lemming
+Brown lemming
+Round-tailed muskrat
+Northern collared lemming
+Ungava collared lemming
+Richardson's collared lemming
+Nelson's collared lemming
+Ogilvie Mountains collared lemming
+Unalaska collared lemming
+White-throated woodrat
+Bushy-tailed woodrat
+Arizona woodrat
+Eastern woodrat
+Dusky-footed woodrat
+Desert woodrat
+Bryant's woodrat
+Allegheny woodrat
+Mexican woodrat
+Southern Plains woodrat
+Stephen's woodrat
+White-toothed woodrat
+Big-eared woodrat
+Northern pygmy mouse
+Golden mouse
+California mouse
+Cactus mouse
+Northern Baja deer mouse
+Mesquite mouse
+Canyon mouse
+Deer mouse
+Oldfield mouse
+White-footed mouse
+Cotton mouse
+Brush mouse
+Texas mouse
+White-ankled mouse
+Pinyon mouse
+Osgood's mouse
+Northwestern deer mouse
+Northern rock mouse
+Black-eared mouse
+Peromyscus anayapahensis [14] (E)
+Peromyscus nesodytes [14] (E)
+Fulvous harvest mouse
+Eastern harvest mouse
+Western harvest mouse
+Plains harvest mouse
+Salt marsh harvest mouse
+Mearn's grasshopper mouse
+Northern grasshopper mouse
+Southern grasshopper mouse
+Florida mouse
+Hispid cotton rat
+Yellow-nosed cotton rat
+Arizona cotton rat
+Tawny-bellied cotton rat
+Coues's rice rat
+Marsh rice rat
+Pygmy rabbit
+Brush rabbit
+Swamp rabbit
+Marsh rabbit
+Eastern cottontail
+Manzano Mountain cottontail
+New England cottontail
+Mountain cottontail
+Desert cottontail
+Appalachian cottontail
+Robust cottontail
+Antelope jackrabbit
+Snowshoe hare
+Arctic hare
+Alaskan hare
+Black-tailed jackrabbit
+White-sided jackrabbit
+White-tailed jackrabbit
+Atzlan rabbit
+Collared pika
+American pika
+Giant pika
+Star-nosed mole
+Hairy-tailed mole
+Eastern mole
+Broad-footed mole
+Coast mole
+Townsend's mole
+Shrew-mole
+Northern short-tailed shrew
+Southern short-tailed shrew
+Everglades short-tailed shrew
+Elliot's short-tailed shrew
+North American least shrew
+Cockrum's gray shrew
+Crawford's gray shrew
+Long-tailed shrew
+Gaspé shrew
+Smoky shrew
+American pygmy shrew
+Dwarf shrew
+Ornate shrew
+Inyo shrew
+Baird's shrew
+Marsh shrew
+New Mexico shrew
+Pacific shrew
+American water shrew
+Fog shrew
+Vagrant shrew
+Cinereus shrew
+Maryland shrew
+Olympic shrew
+Prairie shrew
+Saint Lawrence Island shrew
+Southeastern shrew
+Mount Lyell shrew
+Preble's shrew
+Pribilof Island shrew
+Barren ground shrew
+Alaska tiny shrew
+Arctic shrew
+Maritime shrew
+Tundra shrew
+Arizona shrew
+Merriam's shrew
+Trowbridge's shrew
+Montane shrew
+Glacier Bay water shrew
+Western pipistrelle
+Eastern pipistrelle
+Big brown bat
+Evening bat
+Desert red bat
+Eastern red bat
+Hoary bat
+Southern yellow bat
+Seminole bat
+Northern yellow bat
+Western yellow bat
+Allen's big-eared bat
+Spotted bat
+Rafinesque's big-eared bat
+Townsend's big-eared bat
+Southwestern myotis
+Southeastern myotis
+California myotis
+Western small-footed myotis
+Dark-nosed small-footed myotis
+Long-eared myotis
+Gray bat
+Keen's myotis
+Eastern small-footed myotis
+Little brown bat
+Northern long-eared myotis
+Indiana bat
+Fringed myotis
+Cave myotis
+Long-legged myotis
+Yuma myotis
+Silver-haired bat
+Arizona myotis
+Wagner's mastiff bat
+Florida bonneted bat
+Western mastiff bat
+Underwood's mastiff bat
+Pallas's mastiff bat
+Pocketed free-tailed bat
+Big free-tailed bat
+Mexican free-tailed bat
+Pallid bat
+Ghost-faced bat
+Pristine mustached bat
+Mexican long-tongued bat
+Hairy-legged vampire bat
+Mexican long-nosed bat
+Lesser long-nosed bat
+California leaf-nosed bat
+Velvety fruit-eating bat
+Jaguarundi
+Gulf Coast jaguarundi
+Ocelot
+Canadian lynx
+Bobcat
+Mountain lion
+Margay
+Jaguar
+Sabre-tooth cat
+American scimitar cat
+American cheetah
+American lion
+Beringian cave lion
+Coyote
+Gray wolf
+Red wolf
+Eastern wolf
+Dire wolf
+Red fox
+Swift fox
+Kit fox
+Arctic fox
+Gray fox
+Island fox
+Dhole
+Brown bear
+Alaskan brown bear or Kodiak bear
+American black bear
+Louisiana Black Bear
+Polar bear
+Florida cave bear
+Short-faced bear
+Raccoon
+White-nosed coati
+Ringtail
