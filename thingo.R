@@ -38,7 +38,12 @@ generate_map <- function(dat, xy){
 
 fn <- generate_map(dat, xy)
 
-system2("/usr/local/bin/twurl",
-        paste0("-H upload.twitter.com \"/1.1/media/upload.json\" -f ",
-               fn,
-               " -F media -X POST"))
+fuzzy_dog <- system2("/usr/local/bin/twurl",
+                  paste0("-H upload.twitter.com \"/1.1/media/upload.json\" -f ",
+                         fn,
+                         " -F media -X POST"))
+fuzzy_dog <- sub(".*\"media_id\":(\\d+).*", "\\1", fuzzy_dog)
+fuzzy_dog2 <- system2("/usr/local/bin/twurl",
+                      paste0("\"/1.1/statuses/update.json\" -d \"media_ids=",
+                             fuzzy_dog,
+                             "&status=\""))
