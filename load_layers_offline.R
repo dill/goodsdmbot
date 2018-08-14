@@ -21,22 +21,22 @@ load_layers <- function (layercodes, equalarea = FALSE, rasterstack = TRUE,
     if (max(counts) != NROW(layercodes)) {
         warning("Layers from different eras (current, future, paleo) are being loaded together")
     }
-    datadir <- get_datadir(datadir)
+    datadir <- sdmpredictors:::get_datadir(datadir)
 #    urlroot <- get_sysdata()$urldata
     get_layerpath <- function(layercode) {
         suffix <- ifelse(equalarea, "", "_lonlat")
         path <- paste0(datadir, "/", layercode, suffix, ".tif")
-        if (!file.exists(path)) {
-            url <- paste0(urlroot, layercode, suffix, ".tif")
-            ok <- -1
-            on.exit({
-                if (ok != 0 && file.exists(path)) {
-                  file.remove(path)
-                }
-            })
-            ok <- utils::download.file(url, path, method = "auto",
-                quiet = FALSE, mode = "wb")
-        }
+        #if (!file.exists(path)) {
+        #    url <- paste0(urlroot, layercode, suffix, ".tif")
+        #    ok <- -1
+        #    on.exit({
+        #        if (ok != 0 && file.exists(path)) {
+        #          file.remove(path)
+        #        }
+        #    })
+        #    ok <- utils::download.file(url, path, method = "auto",
+        #        quiet = FALSE, mode = "wb")
+        #}
         ifelse(file.exists(path), path, NA)
     }
     paths <- sapply(layercodes, get_layerpath)
