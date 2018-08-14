@@ -12,9 +12,11 @@ spp_final <- t(simplify2array(spp_split))
 starts <- spp_final[,1]
 ends <- spp_final[,2]
 
-aa <- paste0("sp_start:", "[\"",
-             paste0(starts, collapse="\", \""),
-             "\"],")
-bb <- paste0("sp_end:", "[\"",
-             paste0(ends, collapse="\", \""),
-             "\"],")
+#aa <- paste0("sp_start:", "[\"",
+#             paste0(starts, collapse="\", \""),
+#             "\"],")
+#bb <- paste0("sp_end:", "[\"",
+#             paste0(ends, collapse="\", \""),
+#             "\"],")
+
+save(starts, ends, file="sp_names.RData")

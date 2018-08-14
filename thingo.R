@@ -5,6 +5,7 @@ library(mapdata)
 library(viridis)
 
 load("saved.RData")
+load("sp_names.RData")
 
 generate_map <- function(dat, xy){
   datr <- as.matrix(dat) %*% 
@@ -25,11 +26,18 @@ generate_map <- function(dat, xy){
     scale_fill_viridis() +
     borders("world", xlim = c(-130, -60), ylim = c(20, 50), colour="black")+
     theme_void() +
+    geom_text(aes(x=-129, y=21), hjust="left",
+              label=paste(sample(starts, 1), sample(ends, 1))) +
     coord_equal(xlim=xlim, ylim=ylim)
 
-  ggsave(p, file="tmp.png")
+  fn <- paste0("sdm", gsub(" ", "-", date()), ".png")
+  ggsave(p, file=fn, width=7, height=3)
+  return(fn)
 }
 
 
-generate_map(dat, xy)
+fn <- generate_map(dat, xy)
 
+system2(paste0("twurl -H upload.twitter.com \"/1.1/media/upload.json\" -f ",
+               fn,
+               " -F media -X POST"))
