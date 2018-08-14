@@ -14,7 +14,7 @@ layercodes <- layers$layer_code[c(1, 2, 21, 33, 45, 57, 69)]#, 89,
 
 
 
-env <- load_layers(layercodes, equalarea = FALSE)
+env <- load_layers(layercodes, equalarea = FALSE, datadir="sdmdat")
 usa1 <- raster::crop(env, extent(-150, -60, 20, 55))
 
 usa1 <- aggregate(usa1, fact=5)
@@ -43,5 +43,7 @@ p <- ggplot(dat) +
   scale_fill_viridis() +
   coord_equal()
 
-print(p)
+#print(p)
+
+ggsave(p, file="tmp.png", width=800, units="px")
 
