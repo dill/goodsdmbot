@@ -38,6 +38,7 @@ generate_map <- function(dat, xy){
 
 fn <- generate_map(dat, xy)
 
-system2(paste0("twurl -H upload.twitter.com \"/1.1/media/upload.json\" -f ",
+system2("/usr/local/bin/twurl",
+        paste0("-H upload.twitter.com \"/1.1/media/upload.json\" -f ",
                fn,
                " -F media -X POST"))
