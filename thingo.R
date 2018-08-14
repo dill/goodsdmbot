@@ -1,5 +1,6 @@
 ###
 
+setwd("~/sdmbot")
 library(ggplot2)
 library(mapdata)
 library(viridis)
