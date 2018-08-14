@@ -27,7 +27,7 @@ generate_map <- function(dat, xy){
     theme_void() +
     coord_equal(xlim=xlim, ylim=ylim)
 
-  return(p)
+  ggsave(p, file="tmp.png")
 }
 
 
