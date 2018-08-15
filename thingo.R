@@ -1,6 +1,6 @@
 ###
 
-setwd("~/sdmbot")
+#setwd("~/sdmbot")
 library(ggplot2)
 library(mapdata)
 library(viridis)
@@ -18,8 +18,6 @@ generate_map <- function(dat, xy){
 
   dat$p <- dat$p*sample(c(-1,1), 1)
 
-  #dat$x <- xy[,1]
-  #dat$y <- xy[,2]
   dat <- dat[dat$p>0, ]
 
   p <- ggplot(dat) +
@@ -27,8 +25,8 @@ generate_map <- function(dat, xy){
     scale_fill_viridis() +
     borders("world", xlim = c(-130, -60), ylim = c(20, 50), colour="black")+
     theme_void() +
-    geom_text(x=-132, y=21, hjust="left",
-              label=paste(sample(starts, 1), sample(ends, 1))) +
+    annotate("text", x=-133, y=21, hjust="left",
+             label=paste(sample(starts, 1), sample(ends, 1))) +
     coord_equal(xlim=xlim, ylim=ylim)
 
   fn <- paste0("sdm", gsub(" ", "-", date()), ".png")
