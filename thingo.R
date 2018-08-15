@@ -1,6 +1,9 @@
-###
+### post some excellent SDMs to the popular microblogging
+###  platform twitter dot com
 
-#setwd("~/sdmbot")
+# David Lawrence Miller 2018
+
+setwd("~/sdmbot")
 library(ggplot2)
 library(mapdata)
 library(viridis)
@@ -35,6 +38,8 @@ generate_map <- function(dat, xy){
 }
 
 post_it <- function(fn){
+  # how to from here:
+  # https://github.com/twitter/twurl/issues/58
   fuzzy_dog <- system2("/usr/local/bin/twurl",
                   paste0("-H upload.twitter.com \"/1.1/media/upload.json\" -f ",
                          fn,

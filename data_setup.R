@@ -1,4 +1,6 @@
-###
+### setup SDM data
+
+# David Lawrence Miller 2018
 
 library(ggplot2)
 library(mapdata)
