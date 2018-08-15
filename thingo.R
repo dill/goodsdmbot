@@ -32,7 +32,7 @@ generate_map <- function(dat, xy){
              label=paste(sample(starts, 1), sample(ends, 1))) +
     coord_equal(xlim=xlim, ylim=ylim)
 
-  fn <- paste0("sdm", gsub(" ", "-", date()), ".png")
+  fn <- paste0("posts/sdm", gsub(" ", "-", date()), ".png")
   ggsave(p, file=fn, width=7, height=3)
   return(fn)
 }
