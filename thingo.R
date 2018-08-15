@@ -57,7 +57,7 @@ post_it <- function(fn){
 
 fn <- generate_map(dat, xy)
 
-#post_it(fn)
+post_it(fn)
 
 
 
