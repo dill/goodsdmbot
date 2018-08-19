@@ -18,6 +18,8 @@ generate_map <- function(spec){
   xlim <- spec$extent[1:2]
   ylim <- spec$extent[3:4]
   pos <- spec$pos
+  starts <- sp_name_dat[[spec$type]]$starts
+  ends <- sp_name_dat[[spec$type]]$ends
 
   datr <- as.matrix(dat) %*%
             matrix(sample(rep(c(0, 1), c(ncol(dat)-4, 4)), ncol(dat))*
