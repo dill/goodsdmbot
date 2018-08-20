@@ -10,7 +10,7 @@ The bot is supposed to illustrate how "realistic" species distribution maps can 
 
 ### "wait, there's no occurance data in this at all??"
 
-This is literally a bot that posts the results of a normalised matrix-vector multiplication -- just like most spatial models.
+This is literally a bot that posts the results of a scaled matrix-vector multiplication -- just like most spatial models make predictions.
 
 ## what is what
 
