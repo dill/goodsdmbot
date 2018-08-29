@@ -12,14 +12,14 @@ library(viridis)
 load("saved.RData")
 load("sp_names.RData")
 
+source("generate_names.R")
+
 generate_map <- function(spec){
   # extract data from spec
   dat <- spec$dat
   xlim <- spec$extent[1:2]
   ylim <- spec$extent[3:4]
   pos <- spec$pos
-  starts <- sp_name_dat[[spec$type]]$starts
-  ends <- sp_name_dat[[spec$type]]$ends
 
   datr <- as.matrix(dat) %*%
             matrix(sample(rep(c(0, 1), c(ncol(dat)-4, 4)), ncol(dat))*
@@ -46,14 +46,17 @@ generate_map <- function(spec){
     p <- p + borders("world", colour="black", size=0.25)
   }
 
+  # make a name
+  aname <- generate_names(sp_name_dat, probs, type=spec$type)
+
   # where should the species names go?
   if(pos=="topleft"){
     p <- p + annotate("text", x=xlim[1], y=ylim[2], hjust="left",
-                      label=paste(sample(starts, 1), sample(ends, 1)))
+                      label=aname)
   }else{
     # put it in the bottom left
     p <- p + annotate("text", x=xlim[1], y=ylim[1], hjust="left",
-                      label=paste(sample(starts, 1), sample(ends, 1)))
+                      label=aname)
   }
 
   fn <- paste0("posts/sdm_", format(Sys.time(), "%d%b%Y-%H%M"), ".png")
