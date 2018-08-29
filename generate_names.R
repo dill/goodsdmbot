@@ -10,7 +10,7 @@ generate_names <- function(sp_name_dat, probs, type="marine"){
 
   sp_dat <- sp_name_dat[[type]][1:len]
   nn <- lapply(sp_dat, function(x) x[,1][sample(1:nrow(x), 1)])
-  paste(nn[length(nn):1], col=" ")
+  paste(nn[length(nn):1], collapse=" ")
 }
 
 #print(generate_names(sp_name_dat, probs))
