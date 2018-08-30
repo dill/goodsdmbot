@@ -3,7 +3,7 @@
 
 # David Lawrence Miller 2018
 
-setwd("~/sdmbot")
+#setwd("~/sdmbot")
 library(ggplot2)
 library(mapdata)
 library(viridis)
@@ -53,6 +53,9 @@ generate_map <- function(spec){
   if(pos=="topleft"){
     p <- p + annotate("text", x=xlim[1], y=ylim[2], hjust="left",
                       label=aname)
+  }else if(pos=="topright"){
+    p <- p + annotate("text", x=xlim[2], y=ylim[2], hjust="right",
+                      label=aname)
   }else{
     # put it in the bottom left
     p <- p + annotate("text", x=xlim[1], y=ylim[1], hjust="left",
@@ -87,7 +90,7 @@ post_it <- function(fn){
 fn <- generate_map(spec[[sample(1:length(spec), 1)]])
 
 # post the file to twitter dot com
-post_it(fn)
+#post_it(fn)
 
 
 

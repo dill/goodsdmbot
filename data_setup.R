@@ -65,7 +65,7 @@ spec[[1]] <- list()
 spec[[1]]$extent <- c(-130, -105, 15, 50)
 spec[[1]]$type <- "marine"
 spec[[1]]$dat <- get_dat(spec[[1]], env)
-spec[[1]]$pos <- "bottomleft"
+spec[[1]]$pos <- "topright"
 
 # North America
 spec[[2]] <- list()
@@ -120,7 +120,7 @@ spec[[XX]] <- list()
 spec[[XX]]$extent <- c(-30, 45, 30, 65)
 spec[[XX]]$type <- "marine"
 spec[[XX]]$dat <- get_dat(spec[[XX]], env)
-spec[[XX]]$pos <- "bottomleft"
+spec[[XX]]$pos <- "topright"
 XX <- XX+1
 
 # Euro land
