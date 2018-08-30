@@ -5,8 +5,9 @@ load("sp_names.RData")
 
 generate_names <- function(sp_name_dat, probs, type="marine"){
 
-  probs <- probs[[type]][2:length(sp_name_dat[[type]])]
-  len <- sample(2:length(sp_name_dat[[type]]), 1, prob=probs)
+  probs <- probs[[type]]
+  probs <- probs[-1]
+  len <- sample(names(probs), 1, prob=probs)
 
   sp_dat <- sp_name_dat[[type]][1:len]
   nn <- lapply(sp_dat, function(x) x[,1][sample(1:nrow(x), 1)])
